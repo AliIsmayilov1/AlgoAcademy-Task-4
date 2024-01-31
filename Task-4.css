@@ -25,3 +25,19 @@ div#table>div>div.cell>img{
     width: 100%;
     height: auto;
 }
+div#table>div#zero>div.cell{
+    background-color: rgb(29, 26, 26);
+    color: white;
+    text-align: center;
+    height: 20px;
+}
+div.num{
+    color: white;
+    line-height: 80px;
+}
+div.num:first-child{
+    padding-right: 5px;
+}
+div.num:last-child{
+    padding-left: 5px;
+}
