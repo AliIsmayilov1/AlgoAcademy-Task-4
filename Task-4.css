@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(29, 26, 26);
+}
+div.cell{
+    width: 80px;
+    height: 80px;
+}
+div#table>div#one>div.cell:nth-child(even) {
+    background-color: burlywood;
+}
+div#table>div#one>div.cell:nth-child(odd) {
+    background-color: bisque;
+}
