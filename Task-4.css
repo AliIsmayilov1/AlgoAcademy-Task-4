@@ -5,9 +5,23 @@ div.cell{
     width: 80px;
     height: 80px;
 }
-div#table>div#one>div.cell:nth-child(even) {
+div#table>div{
+    display: flex;
+    justify-content: center;
+}
+div#table>div:nth-child(odd)>div.cell:nth-child(odd){
     background-color: burlywood;
 }
-div#table>div#one>div.cell:nth-child(odd) {
-    background-color: bisque;
+div#table>div:nth-child(odd)>div.cell:nth-child(even){
+    background-color: blanchedalmond;
+}
+div#table>div:nth-child(even)>div.cell:nth-child(odd){
+    background-color: blanchedalmond;
+}
+div#table>div:nth-child(even)>div.cell:nth-child(even){
+    background-color: burlywood;
+}
+div#table>div>div.cell>img{
+    width: 100%;
+    height: auto;
 }
